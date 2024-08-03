@@ -6,8 +6,8 @@
 trigger:
 - main
 
-pool:
-  vmImage: 'windows-2022'
+pool: 'Default'
+
 variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
